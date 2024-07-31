@@ -26,17 +26,12 @@ export const Section2: React.FC = () => {
                 <h1 className="text-center text-[#191919] font-CustomGlyseric text-3xl sm:text-4xl md:text-6xl  max-w-md sm:max-w-lg md:max-w-5xl leading-tight">
                     Manage your entire process, from sourcing to employee onboarding and management
                 </h1>
+                <div className="bg-[#FEFFD2] w-full h-[100px] "></div>
                 <div className='pt-10'>
                     <SubmitButton text="Workable RCMS"/>
                 </div>
                 
-                <div className='w-full  flex justify-end items-end mt-auto'>
-                    <img 
-                        src="/analytics.png"  // Use absolute path for public folder
-                        alt="Example" 
-                        className="w-20 h-20" 
-                    />
-                </div>
+                
             </div>
         </div>
     );

@@ -27,6 +27,8 @@ const services = [
   ];
 
 
+ 
+
 export function Section3(){
     
     return (
@@ -44,7 +46,7 @@ export function Section3(){
             
             </div>
           ))}
-          <div className="bg-[#FEFFD2] w-full h-[150px] "></div>
+          <div className="bg-[#FEFFD2] w-full h-[80px] "></div>
         </div>
       )
 }
