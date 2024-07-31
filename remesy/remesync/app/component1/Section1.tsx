@@ -42,7 +42,7 @@ export const Section1: React.FC = () => {
                         </h2> 
                     </div>
                     <h2 className="text-sm hidden md:block  text-gray-200">or</h2>
-                    <Button variant="outline" className="w-full sm:w-auto">
+                    <Button variant="outline" className="w-full sm:w-auto hover:bg-[#4F1787]">
                         <p className="text-gray-200 text-lg sm:text-xl">Start a free trial</p>
                         <ChevronRight className="w-5 h-5 text-bold text-gray-200 ml-2" />
                     </Button>

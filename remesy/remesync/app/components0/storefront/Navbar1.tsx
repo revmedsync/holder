@@ -6,7 +6,6 @@ import { SubmitButton } from "./SubmitButton";
 import { ChevronRightCircle, Instagram, Layers, Linkedin, Menu, X } from "lucide-react";
 import { Modal3 } from "./modal3";
 import { Button } from "@/components/ui/button";
-import { Modal4 } from "./modal4";
 import { Modal5 } from "./modal5";
 
 const Content1 = [
@@ -24,10 +23,9 @@ export function Navbar1() {
     setMenuOpen(!menuOpen);
   };
 
-  const contentValues = Content1.map((item, index) => item.val);
+  const contentValues = Content1.map((item) => item.val);
 
   return (
-
     <header className="flex sticky top-0 items-center justify-between h-16 px-4 md:px-6 bg-[#402E7A] border-b z-50">
       <Link href="#" className="flex items-center gap-2 text-lg font-semibold" prefetch={false}>
         <Image
@@ -41,7 +39,7 @@ export function Navbar1() {
           RevMedSync
         </h1>
       </Link>
-      <nav className=" hidden md:flex items-center gap-6 text-sm font-medium">
+      <nav className="hidden sm:flex items-center gap-6 text-sm font-medium">
         <Modal3 text="Products" />
         <SubmitButton text="Pricing" variant="ghost" />
         <SubmitButton text="Customers" variant="ghost" />
@@ -54,7 +52,7 @@ export function Navbar1() {
         </Button>
       </nav>
 
-      <div className="md:hidden flex items-center">
+      <div className="sm:hidden flex items-center">
         <div onClick={handleNav} className="cursor-pointer pl-4 active:scale-95 transition-transform duration-50 ease-in-out">
           <Menu className="w-10 h-10 text-[#EEEEEE]" />
         </div>
@@ -62,19 +60,30 @@ export function Navbar1() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 w-3/4 sm:w-1/2 lg:w-1/3 h-screen p-4 bg-[#F7F9F2] transition-transform duration-500 ${
+        className={`fixed top-0 right-0 w-full sm:w-1/2 h-screen p-4 bg-[#F7F9F2] transition-transform duration-500 sm:hidden ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-end ">
-          
-            <X size={50} className="cursor-pointer text-[#402E7A]" onClick={handleNav}/>
-          
+        <div className="flex items-center justify-end">
+          <X size={50} className="cursor-pointer text-[#402E7A]" onClick={handleNav}/>
         </div>
         <div className="flex-col py-4">
-        <Modal5 icon={Layers} text="Products" hd1="Workable RCMS" desc="optimizing medical billing and credentialing" sh="Source & attract" content={contentValues}/>
-        <Modal5 icon={Layers} text="Products" hd1="Workable RCMS" desc="optimizing medical billing and credentialing" sh="Source & attract" content={contentValues}/>
-        
+          <Modal5 
+            icon={Layers} 
+            text="Products" 
+            hd1="Workable RCMS" 
+            desc="optimizing medical billing and credentialing" 
+            sh="Source & attract" 
+            content={contentValues}
+          />
+          <Modal5 
+            icon={Layers} 
+            text="Products" 
+            hd1="Workable RCMS" 
+            desc="optimizing medical billing and credentialing" 
+            sh="Source & attract" 
+            content={contentValues}
+          />
         </div>
         <div className="flex flex-row justify-around pt-10 items-center">
           <Instagram size={30} />
