@@ -28,7 +28,7 @@ export function Modal5({icon:Icon, text, hd1, desc, sh, content}: mobileProps) {
                             <h1 className="font-bold text-[#402E7A]">
                               {hd1}   
                             </h1>
-                            <h2 className="text-xs  font-bold text-stone-700 font-semibold">
+                            <h2 className="text-xs text-stone-700 font-semibold">
                                 {desc}
                             </h2>
                         </div>
