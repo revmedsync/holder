@@ -19,7 +19,7 @@ interface ButtonProps {
     | undefined;
 }
 
-const headingContent = ["Workable rcms", "Workable Software Development",]
+const headingContent = ["Revmedsync rcms", "Revmedsync Software Development",]
 const Content1 = [
     {
         id:0,
@@ -106,7 +106,7 @@ export function Modal3({text, variant}: ButtonProps) {
                                 <div className="flex flex-row bg-gray-300 p-5">
                                     <div className=""
                                     onMouseEnter={() => handleMouseEnter(Content1, 0)}>
-                                        <h3 className="text-xl font-bold text-blue-600">Workable RCMS</h3>
+                                        <h3 className="text-xl font-bold text-blue-600">Revmedsync RCMS</h3>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem.</p>
                                     </div>
                                     <div className="pt-7">
@@ -118,7 +118,7 @@ export function Modal3({text, variant}: ButtonProps) {
                                     <div className=""
                                     onMouseEnter={() => handleMouseEnter(Content2, 1)}
                                     >
-                                        <h3 className="text-xl font-bold text-blue-600">Workable RCMS</h3>
+                                        <h3 className="text-xl font-bold text-blue-600">Revmedsync RCMS</h3>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem.</p>
                                     </div>
                                     <div className="pt-7">
@@ -189,7 +189,7 @@ export function Modal3({text, variant}: ButtonProps) {
                             <div className="flex flex-row">
                                 <Wand2/>
 
-                                <h2>Workable AI</h2>
+                                <h2>Revmedsync AI</h2>
                             </div>
                         </div>
                 </div>

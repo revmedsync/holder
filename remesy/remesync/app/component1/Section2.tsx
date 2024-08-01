@@ -28,7 +28,7 @@ export const Section2: React.FC = () => {
                 </h1>
                 <div className="bg-[#FEFFD2] w-full h-[100px] "></div>
                 <div className='pt-10'>
-                    <SubmitButton text="Workable RCMS"/>
+                    <SubmitButton text="Revmedsync RCMS"/>
                 </div>
                 
                 

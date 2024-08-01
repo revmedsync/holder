@@ -67,7 +67,7 @@ const PackageCard = ({ name, features, color }:packageProps) => (
 
 const RCMSPackages = () => {
   return (
-    <div className="bg-[#F7F9F2] min-h-screen px-4 sm:px-6 lg:px-8 mt-[-100px] mb-[50px]">
+    <div className="bg-[#F7F9F2] min-h-screen px-4 sm:px-6 lg:px-8 md:mt-[-100px] pb-[100px]">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-extrabold text-gray-900 text-center mb-12">RCMS Packages</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

@@ -71,7 +71,7 @@ export function Navbar1() {
           <Modal5 
             icon={Layers} 
             text="Products" 
-            hd1="Workable RCMS" 
+            hd1="Revmedsync RCMS" 
             desc="optimizing medical billing and credentialing" 
             sh="Source & attract" 
             content={contentValues}
@@ -79,7 +79,7 @@ export function Navbar1() {
           <Modal5 
             icon={Layers} 
             text="Products" 
-            hd1="Workable RCMS" 
+            hd1="Revmedsync RCMS" 
             desc="optimizing medical billing and credentialing" 
             sh="Source & attract" 
             content={contentValues}

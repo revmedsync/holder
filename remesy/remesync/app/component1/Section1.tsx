@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Section1: React.FC = () => {
     return (
-        <div className="p-4 sm:p-8 bg-[#402E7A] flex flex-col md:flex-row">
+        <div className="p-4 sm:p-8 bg-[#402E7A] flex flex-col md:flex-row border-2 border-[#402E7A] h-[650px]">
             {/* Image Section - Now first on mobile */}
             <div className="w-full md:w-1/2 flex justify-center items-center order-first md:order-last mb-8 md:mb-0">
                 <Image
@@ -18,12 +18,12 @@ export const Section1: React.FC = () => {
             </div>
 
             {/* Text Content Section */}
-            <div className="w-full md:w-1/2 gap-5 order-last md:order-first md:pl-10">
+            <div className="w-full  md:w-1/2 gap-5 order-last md:order-first md:pl-10 mt-[100px]">
                 <div className="flex flex-row pt-8 md:pt-24 justify-start">
                     <h2 className="uppercase font-bold text-sm sm:text-lg text-gray-200">
                         RCMS
                     </h2> 
-                    <div className="border-r-2 border-gray-200 h-[20px] sm:h-[30px] mx-2"></div>
+                    <div className="h-[20px] sm:h-[30px] mx-2"></div>
                     <h1 className="uppercase font-bold text-sm sm:text-lg text-gray-200">
                         SOFTWARE
                     </h1>
@@ -48,6 +48,7 @@ export const Section1: React.FC = () => {
                     </Button>
                 </div>
             </div>
+            
         </div>
     );
 };

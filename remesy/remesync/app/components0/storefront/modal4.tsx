@@ -19,7 +19,7 @@ interface ButtonProps {
     | undefined;
 }
 
-const headingContent = ["Workable rcms", "Workable Software Development",]
+const headingContent = ["Revmedsync rcms", "Revmedsync Software Development",]
 const Content1 = [
     {
         id:0,
@@ -111,7 +111,7 @@ export function Modal4({ text, variant }: ButtonProps) {
                   className="cursor-pointer"
                   onMouseEnter={() => handleMouseEnter(Content1, 0)}
                 >
-                  <h3 className="text-xl font-bold text-blue-600">Workable RCMS</h3>
+                  <h3 className="text-xl font-bold text-blue-600">Revmedsync RCMS</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem.</p>
                 </div>
                 <div className="pt-7">
@@ -123,7 +123,7 @@ export function Modal4({ text, variant }: ButtonProps) {
                   className="cursor-pointer"
                   onMouseEnter={() => handleMouseEnter(Content2, 1)}
                 >
-                  <h3 className="text-xl font-bold text-blue-600">Workable RCMS</h3>
+                  <h3 className="text-xl font-bold text-blue-600">Revmedsync RCMS</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem.</p>
                 </div>
                 <div className="pt-7">
@@ -166,7 +166,7 @@ export function Modal4({ text, variant }: ButtonProps) {
             <div className="hidden md:block border-r border-gray-800 h-8 mx-4"></div>
             <div className="flex flex-row items-center">
               <Wand2 className="w-6 h-6 mr-2" />
-              <h2>Workable AI</h2>
+              <h2>Revmedsync AI</h2>
             </div>
           </div>
         </div>

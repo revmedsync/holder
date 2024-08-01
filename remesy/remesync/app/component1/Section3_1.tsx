@@ -78,7 +78,7 @@ export function Section3_1(){
     return (
         <div>
             <div className='bg-[#FEFFD2] pt-10 w-full items-center justify-center flex py-5'>
-                <SubmitButton text="Workable Software development"/>
+                <SubmitButton text="Revmedsync Software development"/>
             
             
             
